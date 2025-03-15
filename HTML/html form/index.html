@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Webpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Multimedia Webpage</h1>
+        
+        <!-- Embedded Image -->
+        <h2>Featured Image</h2>
+        <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Sample Image" width="600">
+        
+        <!-- Ordered List with Roman Numerals -->
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>Reading</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+            <li>Coding</li>
+            <li>Gaming</li>
+        </ol>
+        
+        <!-- Embedded Table with 5 Contacts -->
+        <h2>Contact List</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>+123456789</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave</td>
+                <td>+987654321</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Robert Brown</td>
+                <td>789 Pine Rd</td>
+                <td>+1122334455</td>
+                <td>robert@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>321 Elm St</td>
+                <td>+5566778899</td>
+                <td>emily@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Green</td>
+                <td>654 Maple Ln</td>
+                <td>+9988776655</td>
+                <td>michael@example.com</td>
+            </tr>
+        </table>
+        
+        <!-- Registration Form -->
+        <h2>Registration Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="6" required><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+            
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+            
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
