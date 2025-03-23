@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Webpage</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="title">Welcome to My Styled Page</h1>
+        <nav class="navbar">
+            <h2 class="logo">MyWebsite</h2>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <p class="description">This is a simple webpage styled using an external CSS file.</p>
-        <img id="styled-image" src="image.jpg" alt="Sample Image">
-    </section>
+    <main class="container">
+        <section class="content">
+            <h1 class="title">Welcome to My Styled Page</h1>
+            <p class="description">This is a simple webpage styled using CSS Grid and Flexbox.</p>
+            <img id="styled-image" src="image.jpg" alt="Sample Image">
+        </section>
+    </main>
 
     <footer>
         <p class="footer-text">© 2025 MyWebsite. All rights reserved.</p>
