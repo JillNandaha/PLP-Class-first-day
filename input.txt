@@ -1,0 +1,5 @@
+Hello there!
+This is a sample file.
+Python is fun to learn.
+We're writing to a file.
+This is the final line.
