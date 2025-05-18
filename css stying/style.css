@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    margin: 40px auto;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  /* Animation class */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-25px); }
+  }
+  
+  .bounce {
+    animation-name: bounce;
+  }
+  
